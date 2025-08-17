@@ -1,0 +1,145 @@
+# === VanillaPlus Language File (English) ===
+# Translate or edit these messages for your server.
+
+# --- Main ---
+plugin.enabled: "§eVanillaPlus §av.1.0 §7successfully activated!"
+plugin.author: "§aAuthor: Fareinheits | Whoyouare519"
+
+# --- FishDryingMechanic ---
+fishdryer.invalid: "Dryer is built incorrectly! It must be 2-7 tripwires in a row."
+fishdryer.only_raw: "You can only dry raw fish or poppy (for tobacco) here!"
+fishdryer.started_fish: "You started drying fish! It will be ready in 15 minutes."
+fishdryer.started_poppy: "You started drying poppy! Tobacco will be ready in 5 minutes."
+fishdryer.not_ready: "Still drying! Time left: %minutes% min."
+fishdryer.ready: "You collected the dried product!"
+fishdryer.done_fish: "Your fish is dried! Take it from the dryer."
+fishdryer.done_poppy: "Your tobacco is ready! Take it from the dryer."
+fishdryer.cigarette: "You rolled a cigarette!"
+
+# --- SandSieveMechanic ---
+sieve.created: "Sand/gravel sieve successfully assembled!"
+sieve.not_sieve: "This structure is not a sieve or has been broken."
+sieve.use_sand: "Use sand or gravel for sieving."
+sieve.broken: "The sieve was broken! Build a new one to filter."
+holo.sieve.progress: "§7Filtered: %count%" # Hologram above sieve showing filtered blocks
+
+# --- BirchSapMechanic ---
+birchsap.wait: "Collecting sap... Wait %minutes% minutes."
+birchsap.got: "You received birch sap!"
+birchsap.drink: "You drank birch sap! You feel something..."
+birchsap.already: "A hook for sap collection is already placed on this birch!"
+birchsap.not_ready: "Sap is not ready yet!"
+birchsap.name: "§fBirch Sap"
+birchsap.lore1: "§7Fresh sap from birch"
+birchsap.lore2: "§8Has a random effect"
+
+# --- FishingNetMechanic ---
+net.throw: "Net thrown! Wait a few minutes..."
+net.already: "There is already a net here!"
+net.not_water: "Aim at water to throw the net!"
+net.pickup: "You collected the net and the catch!"
+net.broken: "The net broke! You caught nothing."
+net.back: "You took the net back."
+net.making: "Net crafting progress was lost due to loom destruction!"
+net.progress: "[Net: %progress%]"
+net.ready: "[Net: Ready! Swim up to collect]"
+
+# --- FishingNetMechanic (extra keys for getLangFromPlugin) ---
+net.old_tool: "§fOld Tool"
+net.item_name: "Fishing Net"
+net.item_display: "§eFishing Net"
+net.item_lore1: "§7Use in water"
+net.item_lore2: "§8Can catch fish or other items"
+net.craft_start: "Net crafting started! Add components one by one."
+net.craft_ready: "You received a fishing net!"
+net.craft_progress_bar: "§eNet: "
+net.craft_progress_info: " §f(%string%/14 string, %iron%/4 iron, %meat%/3 meat)"
+net.craft_ready_holo: "§eFishing Net (Right-click to collect)"
+net.craft_need: "You need to add string (14), iron (4), and raw meat (3) one at a time."
+net.making: "Net crafting progress was lost due to loom destruction!"
+
+# --- AxeTreeChopMechanic ---
+axe.chop: "Tree damaged! %hits% more hit(s)."
+axe.fell: "You felled the tree!"
+
+# --- General errors/info ---
+error.no_perm: "You do not have permission for this action."
+error.unknown: "An unknown error occurred."
+
+# --- Holograms, progress bars, tips ---
+holo.sieve.progress: "§7Filtered: %count%"
+holo.fishdryer.fish: "Drying fish"
+holo.fishdryer.poppy: "Drying poppy"
+holo.fishdryer.done_fish: "§6Dried fish (take it!)"
+holo.fishdryer.done_poppy: "§6Tobacco (take it!)"
+holo.net.progress: "§7[Net: %bar%]"
+holo.net.ready: "§a[Net: Ready! Swim up to collect]"
+holo.net.broken: "§cNet is broken!"
+holo.net.inwater: "§7Net in water..."
+holo.net.pickup: "§aNet (collect catch)"
+holo.net.crafting: "§eNet is being crafted..."
+holo.net.crafting_ready: "§eFishing Net (Right-click to collect)"
+
+# --- Player tips/info ---
+tip.sieve.use: "Right-click the sieve with sand or gravel to filter."
+tip.fishdryer.use: "Right-click the dryer with fish or poppy to start drying."
+tip.net.throw: "Right-click water with a net to throw it."
+tip.net.pickup: "Swim up to the net to collect the catch."
+tip.net.shift_pickup: "Shift+Right-click water — take the net back (before catch)."
+tip.axe.chop: "Left-click a tree with an axe to fell it."
+
+# --- StonecutterMechanic ---
+stonecutter.sticks: "You cut logs into sticks!"
+stonecutter.string: "You cut wool into string!"
+stonecutter.snowballs: "You cut ice into snowballs!"
+stonecutter.cooldown: "The tool needs to cool down! Wait 5 minutes."
+stonecutter.cant_sharpen: "This tool cannot be sharpened or is too new."
+stonecutter.broken: "The tool broke during sharpening!"
+stonecutter.enchanted: "The tool received a new enchantment!"
+stonecutter.sharpened: "You sharpened the tool! Durability restored by %restore%."
+
+# --- FlintMechanic ---
+flint.fire: "You struck a spark and lit the stone!"
+flint.spark: "You struck a spark, but nothing happened."
+
+# --- ItemUseMechanic ---
+bonemeal.area: "You fertilized the area conveniently!"
+cigarette.wait: "Wait before the next puff!"
+cigarette.end: "The cigarette is finished."
+cigarette.puff: "You took a puff of the cigarette..."
+cigarette.need_tobacco: "You need real tobacco (dried poppy) to craft a cigarette!"
+energy.drink: "You drank an energy drink!"
+
+# --- FishDryingMechanic (extra keys for items) ---
+fishdryer.dried_name: "§6Dried Fish"
+fishdryer.dried_lore1: "§7Dried on a real rack!"
+fishdryer.dried_lore2: "§8Restores more hunger"
+fishdryer.tobacco_name: "§6Tobacco"
+fishdryer.tobacco_lore: "§7Dried poppy, base for cigarettes."
+fishdryer.cigarette_name: "§fCigarette"
+fishdryer.cigarette_lore1: "§7Use to smoke"
+fishdryer.cigarette_lore2: "§8Restores a bit of health"
+
+# --- AllRecipes (ItemStack display/lore) ---
+allrecipes.stone_stick_name: "§7Stone Stick"
+allrecipes.stone_stick_lore: "§fStrong and sharp, perfect for early hunting."
+allrecipes.saddle_name: "§6Saddle"
+allrecipes.miner_shield_name: "§bMiner's Shield"
+allrecipes.miner_shield_lore1: "§7Protects from gravel!"
+allrecipes.miner_shield_lore2: "§8(Special shield)"
+allrecipes.super_torch_name: "§eSuper Torch"
+allrecipes.super_torch_lore: "§7Brighter than a regular torch!"
+allrecipes.pouch_dust_name: "§fPouch of Dust"
+allrecipes.pouch_dust_lore: "§7Might be useful for an alchemist..."
+allrecipes.xp_book_name: "§bExperience Book"
+allrecipes.xp_book_lore: "§7Contains concentrated experience!"
+allrecipes.super_bonemeal_name: "§aFertilizer Bag"
+allrecipes.super_bonemeal_lore: "§7Fertilizes everything in a 3x3 area!"
+allrecipes.tobacco_name: "§6Tobacco"
+allrecipes.tobacco_lore: "§7Dried poppy, base for cigarettes."
+allrecipes.cigarette_name: "§fCigarette"
+allrecipes.cigarette_lore1: "§710-16 puffs, gives effects and restores health."
+allrecipes.cigarette_lore2: "§8Right-click to puff."
+allrecipes.pocket_torch_name: "§ePocket Torch"
+allrecipes.pocket_torch_lore1: "§7Can be used as a lantern in hand."
+allrecipes.pocket_torch_lore2: "§8Shines even in the offhand!"
