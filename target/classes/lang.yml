@@ -1,0 +1,147 @@
+# === VanillaPlus Language File ===
+# Для зміни мови просто перекладіть цей файл або створіть lang_en.yml для англійської
+
+# --- Головні ---
+plugin.enabled: "§eVanillaPlus §av.1.0 §7успішно активовано!"
+plugin.author: "§aАвтор: Fareinheits | Whoyouare519"
+
+# --- FishDryingMechanic ---
+fishdryer.invalid: "Сушарка побудована неправильно! Має бути 2-7 підряд натягнутих ниток."
+fishdryer.only_raw: "Тут можна сушити лише сиру рибу або мак (для табаку)!"
+fishdryer.started_fish: "Ви почали сушити рибку! Через 15 хвилин вона буде готова."
+fishdryer.started_poppy: "Ви почали сушити мак! Через 5 хвилин буде готовий табак."
+fishdryer.not_ready: "Ще сушиться! Залишилось: %minutes% хв."
+fishdryer.ready: "Ви забрали висушений продукт!"
+fishdryer.done_fish: "Ваша рибка висохла! Заберіть її з сушарки."
+fishdryer.done_poppy: "Ваш табак готовий! Заберіть його з сушарки."
+fishdryer.cigarette: "Ви скрутили сигарету!"
+
+# --- SandSieveMechanic ---
+sieve.created: "Сито для піску/гравію успішно зібране!"
+sieve.not_sieve: "Ця конструкція не є ситом або була зламана."
+sieve.use_sand: "Використовуйте пісок або гравій для просіювання."
+sieve.broken: "Сито було зламане! Для фільтрації потрібно зібрати нове сито."
+holo.sieve.progress: "§7Відфільтровано: %count%"
+
+# --- BirchSapMechanic ---
+birchsap.wait: "Збір соку... Зачекайте %minutes% хвилин."
+birchsap.got: "Ви отримали березовий сік!"
+birchsap.drink: "Ви випили березовий сік! Щось відчувається..."
+
+# --- FishingNetMechanic ---
+net.throw: "Сітка закинута! Зачекайте кілька хвилин..."
+net.already: "Тут вже є сітка!"
+net.not_water: "Наведіть на воду для закидання сітки!"
+net.pickup: "Ви забрали сітку та улов!"
+net.broken: "Сітка порвалася! Ви нічого не зловили."
+net.back: "Ви забрали сітку назад."
+net.making: "Прогрес створення сітки був збитий через знищення ткацького станка!"
+net.progress: "[Сітка: %progress%]"
+net.ready: "[Сітка: Готово! Підпливайте для збору]"
+
+# --- FishingNetMechanic (додаткові ключі для getLangFromPlugin) ---
+net.old_tool: "§fСтарий інструмент"
+net.item_name: "Риболовна сітка"
+net.item_display: "§eРиболовна сітка"
+net.item_lore1: "§7Використовуйте у воді"
+net.item_lore2: "§8Може зловити рибу або інші предмети"
+net.craft_start: "Почато створення сітки! Додавайте компоненти по 1."
+net.craft_ready: "Ви отримали риболовну сітку!"
+net.craft_progress_bar: "§eСітка: "
+net.craft_progress_info: " §f(%string%/14 ниток, %iron%/4 заліза, %meat%/3 м'ясо)"
+net.craft_ready_holo: "§eРиболовна сітка (ПКМ для отримання)"
+net.craft_need: "Потрібно додати нитки (14), залізо (4) та сире м'ясо (3) по 1 за раз."
+net.making: "Прогрес створення сітки був збитий через знищення ткацького станка!"
+
+# --- AxeTreeChopMechanic ---
+axe.chop: "Дерево пошкоджено! Ще %hits% удар(ів)."
+axe.fell: "Ви повалили дерево!"
+
+# --- Загальні помилки/інфо ---
+error.no_perm: "У вас немає прав для цієї дії."
+error.unknown: "Сталася невідома помилка."
+
+# --- Голограми, прогресбари, підказки ---
+holo.sieve.progress: "§7Відфільтровано: %count%"
+holo.fishdryer.fish: "Сушиться рибка"
+holo.fishdryer.poppy: "Сушиться мак"
+holo.fishdryer.done_fish: "§6В'ялена рибка (заберіть!)"
+holo.fishdryer.done_poppy: "§6Табак (заберіть!)"
+holo.net.progress: "§7[Сітка: %bar%]"
+holo.net.ready: "§a[Сітка: Готово! Підпливайте для збору]"
+holo.net.broken: "§cСітка порвана!"
+holo.net.inwater: "§7Сітка у воді..."
+holo.net.pickup: "§aСітка (заберіть улов)"
+holo.net.crafting: "§eВишивається сітка..."
+holo.net.crafting_ready: "§eРиболовна сітка (ПКМ для отримання)"
+
+# --- Підказки/інфо для гравця ---
+tip.sieve.use: "ПКМ по ситу з піском або гравієм для просіювання."
+tip.fishdryer.use: "ПКМ по сушарці з рибою або маком для початку сушіння."
+tip.net.throw: "ПКМ по воді з сіткою для закидання."
+tip.net.pickup: "Підпливайте до сітки для збору улову."
+tip.net.shift_pickup: "Shift+ПКМ по воді — забрати сітку назад (до улову)."
+tip.axe.chop: "ЛКМ по дереву сокирою для повалення дерева."
+
+# --- StonecutterMechanic ---
+stonecutter.sticks: "Ви розпиляли колоду на палки!"
+stonecutter.string: "Ви розпиляли шерсть на нитки!"
+stonecutter.snowballs: "Ви розпиляли лід на сніжки!"
+stonecutter.cooldown: "Інструмент має вистигнути! Зачекайте 5 хвилин."
+stonecutter.cant_sharpen: "Цей інструмент не можна заточити або він занадто новий."
+stonecutter.broken: "Інструмент зламався під час заточування!"
+stonecutter.enchanted: "Інструмент отримав нове зачарування!"
+stonecutter.sharpened: "Ви заточили інструмент! Міцність відновлено на %restore%."
+
+# --- FlintMechanic ---
+flint.fire: "Ви висікли іскру і підпалили камінь!"
+flint.spark: "Ви висікли іскру, але нічого не сталося."
+
+# --- ItemUseMechanic ---
+bonemeal.area: "Ви зручно удобрили територію!"
+cigarette.wait: "Зачекайте перед наступною затяжкою!"
+cigarette.end: "Сигарета закінчилась."
+cigarette.puff: "Ви зробили затяжку сигаретою..."
+cigarette.need_tobacco: "Для крафту сигарети потрібен саме табак (сушений мак)!"
+energy.drink: "Ви випили енергетик!"
+
+# --- FishDryingMechanic (додаткові ключі для предметів) ---
+fishdryer.dried_name: "§6В'ялена рибка"
+fishdryer.dried_lore1: "§7Сушена на справжній сушарці!"
+fishdryer.dried_lore2: "§8Відновлює більше голоду"
+fishdryer.tobacco_name: "§6Табак"
+fishdryer.tobacco_lore: "§7Висушений мак, основа для сигарет."
+fishdryer.cigarette_name: "§fСигарета"
+fishdryer.cigarette_lore1: "§7Використайте для куріння"
+fishdryer.cigarette_lore2: "§8Відновлює трохи здоров'я"
+
+# --- BirchSapMechanic (додаткові ключі) ---
+birchsap.already: "На цю березу вже встановлено крюк для збору соку!"
+birchsap.not_ready: "Сік ще не готовий!"
+birchsap.name: "§fБерезовий сік"
+birchsap.lore1: "§7Свіжий сік з берези"
+birchsap.lore2: "§8Має випадковий ефект"
+
+# --- AllRecipes (ItemStack display/lore) ---
+allrecipes.stone_stick_name: "§7Кам'яна палка"
+allrecipes.stone_stick_lore: "§fМіцна та гостра, ідеальна для полювання на старті."
+allrecipes.saddle_name: "§6Сідло"
+allrecipes.miner_shield_name: "§bЩит шахтаря"
+allrecipes.miner_shield_lore1: "§7Захищає від гравію!"
+allrecipes.miner_shield_lore2: "§8(спеціальний щит)"
+allrecipes.super_torch_name: "§eСупер-факел"
+allrecipes.super_torch_lore: "§7Світить яскравіше за звичайний!"
+allrecipes.pouch_dust_name: "§fМішечок з пилом"
+allrecipes.pouch_dust_lore: "§7Можливо, стане у пригоді алхіміку..."
+allrecipes.xp_book_name: "§bКнига досвіду"
+allrecipes.xp_book_lore: "§7Містить концентрований досвід!"
+allrecipes.super_bonemeal_name: "§aМішок для удобрення"
+allrecipes.super_bonemeal_lore: "§7Удобрює все навколо в радіусі 3х3!"
+allrecipes.tobacco_name: "§6Табак"
+allrecipes.tobacco_lore: "§7Висушений мак, основа для сигарет."
+allrecipes.cigarette_name: "§fСигарета"
+allrecipes.cigarette_lore1: "§710-16 затяжок, дає ефекти та відновлює здоров'я."
+allrecipes.cigarette_lore2: "§8Використовуйте ПКМ для затяжки."
+allrecipes.pocket_torch_name: "§eКишеньковий факел"
+allrecipes.pocket_torch_lore1: "§7Можна використовувати як ліхтарик у руці."
+allrecipes.pocket_torch_lore2: "§8Світить навіть у другій руці!"
