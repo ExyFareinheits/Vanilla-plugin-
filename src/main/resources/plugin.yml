@@ -1,0 +1,16 @@
+name: VanillaPlus
+main: me.zver.vanillaplus.VanillaPlus
+version: 1.0
+api-version: 1.16
+author: Zver
+description: Vanilla+ custom mechanics and items plugin
+commands:
+  vanillaplusreload:
+    description: Reload VanillaPlus config and language
+    usage: /vanillaplusreload
+    permission: vanillaplus.reload
+
+permissions:
+  vanillaplus.reload:
+    description: Allows reloading VanillaPlus plugin
+    default: op
